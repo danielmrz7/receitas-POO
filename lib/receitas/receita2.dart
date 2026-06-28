@@ -31,7 +31,6 @@ class MinhaNavBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return BottomNavigationBar(
       items: const [
         BottomNavigationBarItem(
@@ -61,12 +60,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-
       home: Scaffold(
         appBar: MinhaAppBar(),
         body: ListarVinhos(),

@@ -141,7 +141,5 @@ class DataTableWidget extends StatelessWidget {
           )
 
         ).toList());
-
   }
-
 }
